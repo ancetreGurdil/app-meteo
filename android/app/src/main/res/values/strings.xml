@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">app-meteo</string>
+    <string name="title_activity_main">app-meteo</string>
+    <string name="package_name">fr.meteo.app</string>
+    <string name="custom_url_scheme">fr.meteo.app</string>
+</resources>
