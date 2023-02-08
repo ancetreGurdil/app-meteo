@@ -24,6 +24,8 @@
     "@capacitor/cli": "^4.6.1",
     "@capacitor/core": "^4.6.1",
     "@capacitor/ios": "^4.6.1",
+    "@ng-web-apis/common": "^2.1.0",
+    "@ng-web-apis/geolocation": "^2.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
