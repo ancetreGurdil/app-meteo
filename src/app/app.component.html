@@ -1,5 +1,13 @@
 <div class="out-main-box">
   <div class="in-main-box">
-    <app-menu-list></app-menu-list>
+      <nav mat-tab-nav-bar [tabPanel]="tabPanel">
+        <a mat-tab-link routerLink="meteo">meteo</a>
+        <a mat-tab-link routerLink="statistique">statistique</a>
+        <a mat-tab-link routerLink="recherche">recherche</a>
+      </nav>
+      <mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+    <router-outlet></router-outlet>
   </div>
 </div>
+
+

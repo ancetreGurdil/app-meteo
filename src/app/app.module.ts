@@ -5,14 +5,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './@shared/shared.module';
 import { AppRouting } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MeteoComponent } from './content/meteo/components/meteo.component';
-import { MenuListComponent } from './menu-list/components/menu-list.component';
+import { MeteoComponent } from './meteo/meteo.component';
+import { StatistiqueComponent } from './statistique/statistique.component';
+import { RechercheComponent } from './recherche/recherche.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuListComponent,
-    MeteoComponent
+    MeteoComponent,
+    StatistiqueComponent,
+    RechercheComponent,
   ],
   imports: [
     SharedModule,
