@@ -22,6 +22,7 @@ import { RechercheComponent } from './recherche/recherche.component';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRouting
+
   ],
   providers: [
     {provide: LOCALE_ID,useValue:'fr-FR'}
